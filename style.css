@@ -68,5 +68,6 @@ header a {
     padding: 6px;
     padding-bottom: 3px;
     max-width: 500px;
+    right: 200px
     width: fit-content;
 }
