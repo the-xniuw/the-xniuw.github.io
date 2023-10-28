@@ -1,73 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
-* {
-    background-color: rgb(8, 17, 12);
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
 }
-
-header {
-    margin-top: 20%;
-    margin-left: 0px;
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
 }
-
-header h1 {
-    font-size: 30px;
-    color: rgb(207, 207, 207);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 100;
-    border-bottom: 1px solid rgb(75, 151, 50);
-    width: fit-content;
-    margin-bottom: 70px;
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
-
-header h1::before {
-    content: './ ';
-    border-bottom: 1px solid rgb(8, 17, 12);
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
 }
-
-header a {
-    color: inherit;
-    text-decoration: inherit;
-    transition: all 3s;
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
 }
-
-#body:hover {
-    background-color: rgb(20, 18, 33);
-    border-bottom: none;
-    border-radius: 10px;
-    padding: 10px;
-    transition: all 3s;
+.box p{
+  text-align: justify;
 }
-
-#bio {
-    margin-top: 20px;
-    padding-left: 15px;
-    width: 35%;
-    margin-left: 50px;
+ul{
+  margin: 0;
+  padding: 0;
 }
-
-#bio h1 {
-    display: block;
-    font-size: 30px;
-    color: rgb(207, 207, 207);
-    font-family: 'Courier New', Courier, monospace;
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
 }
-
-#bio p {
-    font-size: 20px;
-    color: rgb(137, 137, 137);
-    font-family: 'Special Elite';
-    letter-spacing: 1px;
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
 }
-
-#blurred {
-    filter: blur(4px);
-}
-
-#socials {
-    border: 1px dashed white;
-    padding: 6px;
-    padding-bottom: 3px;
-    max-width: 500px;
-    right: 200px
-    width: fit-content;
+.box li a:hover{
+  color: #b9b9b9;
 }
