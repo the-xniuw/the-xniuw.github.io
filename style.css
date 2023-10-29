@@ -18,6 +18,7 @@ body{
 }
 .box-img{
   border-radius: 50%;
+  border: 5px solid #ffffff;
   width: 200px;
   height: 200px;
 }
