@@ -8,13 +8,32 @@ body{
 }
 .box{
   width: 450px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 1);
   padding: 40px;
   text-align: center;
   margin: auto;
   margin-top: 5%;
   color: white;
   font-family: 'Poppins',bold-700;
+}
+.box::before{
+  content: '';
+  position: absolute;
+  inset: -10px 140px;
+  background: linear-gradient(315deg, #00ccff, #d400d4);
+  transition: 0.5s
+  animation: animate 4s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  0%
+  {
+    transform: rotate(360deg);
+  }
 }
 .box-img{
   border-radius: 50%;
