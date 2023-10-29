@@ -3,6 +3,8 @@
 body{
   margin: 0;
   padding: 0;
+  background: url("https://media.discordapp.net/attachments/921465346010001438/1167948460683690094/photo-1636953056323-9c09fdd74fa6.png?ex=654ffbc4&is=653d86c4&hm=e40233e49e9309192938c1522457312190fcbeecece3101e87284cc1a881f757&=&width=1100&height=619") no-repeat;
+  background-size: cover;
 }
 .box{
   width: 450px;
