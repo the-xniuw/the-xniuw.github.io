@@ -3,8 +3,6 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("https://media.discordapp.net/attachments/921465346010001438/1167948460683690094/photo-1636953056323-9c09fdd74fa6.png?ex=654ffbc4&is=653d86c4&hm=e40233e49e9309192938c1522457312190fcbeecece3101e87284cc1a881f757&=&width=1100&height=619") no-repeat;
-  background-size: cover;
 }
 .box{
   width: 450px;
@@ -25,6 +23,28 @@ body{
   font-size: 40px;
   letter-spacing: 4px;
   font-weight: 100;
+}
+.bgvid.inner{
+  top:calc(-50vh + 200px);
+  left:calc(-50vw + 200px);
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+  -webkit-filter:blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter:blur(10px);
+}
+.vid-container{
+  position:relative;
+  height:100vh;
+  overflow:hidden;
+}
+.bgvid.back {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+}
+.inner {
+  position: absolute;
 }
 .box h5{
   font-size: 20px;
