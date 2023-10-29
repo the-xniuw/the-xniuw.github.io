@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body{
   margin: 0;
@@ -14,7 +14,7 @@ body{
   margin: auto;
   margin-top: 5%;
   color: white;
-  font-family: 'Special Elite';
+  font-family: 'Poppins', bold-700;
 }
 .box-img{
   border-radius: 50%;
