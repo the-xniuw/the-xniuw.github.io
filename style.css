@@ -7,9 +7,10 @@ body{
   background-size: cover;
 }
 .box{
+  height: 730px;
   width: 450px;
   background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
+  padding: 71px;
   text-align: center;
   margin: auto;
   margin-top: 5%;
