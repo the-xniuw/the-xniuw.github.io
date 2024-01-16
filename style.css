@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   background: url("https://media.discordapp.net/attachments/1188968757587091476/1194417598788542514/compute-ea4c57a4.png?ex=65b04712&is=659dd212&hm=62946168569c26e3dfa707e9e5c83aebb9edc15e6708f5265541f67969cbb7f9&=&format=webp&quality=lossless&width=1388&height=675") no-repeat;
-  background-size: cover;
+  background-size: fill;
 }
 .box{
   height: 730px;
