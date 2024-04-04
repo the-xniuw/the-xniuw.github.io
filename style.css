@@ -7,7 +7,7 @@ body{
   background-size: cover;
 }
 .box{
-  height: 610px;
+  height: 720px;
   width: 450px;
   line-height: 0px;
   background: rgba(0, 0, 0, 0.4);
@@ -79,4 +79,89 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+.phoneBox{
+    height: 720px;
+    width: 450px;
+    line-height: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 71px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    visibility: collapse;
+    font-family: 'Poppins',bold-700;
+  }
+  .box-img{
+    border-radius: 50%;
+    border: 3px solid transparent;
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.26);
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg, #646464 , #646464 10px , #fff 10px, #fff 20px);
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%
+    {
+      background-position: 0;
+    }
+    100%
+    {
+      background-position: 400px;
+    }
+  }
+  .phoneBox h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+  }
+  .inner {
+    position: absolute;
+  }
+  .phoneBox h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 0px;
+    font-weight: 100;
+  }
+  .phoneBox p{
+    line-height: 19px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .phoneBox li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    opacity: 0.5
+  }
+  .phoneBox li:hover{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    opacity: 1
+  }
+  .phoneBox li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .phoneBox li a:hover{
+    color: #b9b9b9;
+  }
+
+@media only screen and (max-width: 414px ){
+    .box {
+        visibility: collapse;
+    }
+    .phoneBox {
+        visibility: visible;
+    }
 }
