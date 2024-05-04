@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.box-img{
+    border-radius: 50%;
+    border: 3px solid transparent;
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.26);
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg, #646464 , #646464 10px , #fff 10px, #fff 20px);
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%
+    {
+      background-position: 0;
+    }
+    100%
+    {
+      background-position: 400px;
+    }
+  }
+  .wrapper h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 0.70em;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0000002f);
+    margin-bottom: 12.5px;
+    animation: text 5s linear infinite
+  }
+  @keyframes text
+  {
+    0%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+  }
+  .inner {
+    position: absolute;
+  }
+  .wrapper h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: px;
+    font-weight: 100;
+  }
+  .wrapper p{
+    margin-top: 3%;
+    line-height: 19px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    opacity: 0.5
+  }
+  .wrapper li:hover{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    opacity: 1
+  }
+  .wrapper li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .wrapper li a:hover{
+    color: #b9b9b9;
+  }
