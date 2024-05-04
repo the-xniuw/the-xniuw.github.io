@@ -35,20 +35,8 @@ body{
     box-shadow: 0 15px 25px rgba(255, 255, 255, 0.26);
     width: 200px;
     height: 200px;
-    background-image: repeating-linear-gradient(45deg, #646464 , #646464 10px , #fff 10px, #fff 20px);
-    animation: animate 5s linear infinite;
-  }
-  @keyframes animate
-  {
-    0%
-    {
-      background-position: 0;
-    }
-    100%
-    {
-      background-position: 400px;
-    }
-  }
+    background-color: purple;
+}
   .wrapper h1{
     font-size: 40px;
     letter-spacing: 1px;
@@ -64,9 +52,9 @@ body{
     {
         color: #fff;
         text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
+        0 0 20px #cc00ff,
+        0 0 40px #cc00ff,
+        0 0 80px #cc00ff,
         0 0 160px #03bcf4;
     }
   }
@@ -108,3 +96,9 @@ body{
   .wrapper li a:hover{
     color: #b9b9b9;
   }
+
+.wrapper .btn {
+  width:45%;
+  height:45px;
+  border-radius: 40px;
+}
