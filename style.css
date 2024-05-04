@@ -56,6 +56,7 @@ body{
     line-height: 0.70em;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0000002f);
     margin-bottom: 12.5px;
+    margin-bottom: 35px;
     animation: text 5s linear infinite
   }
   @keyframes text
@@ -76,7 +77,7 @@ body{
   .wrapper h5{
     font-size: 20px;
     letter-spacing: 1px;
-    line-height: 0px;
+    line-height: 5px;
     font-weight: 100;
   }
   .wrapper p{
@@ -110,6 +111,12 @@ body{
   }
 
 .wrapper .btn {
+  width:45%;
+  height:45px;
+  border-radius: 40px;
+}
+
+.btn {
   margin: 1px;
   padding: 15px 40px;
   border: none;
@@ -120,7 +127,7 @@ body{
   z-index: 0;
   border-radius: 12px;
 }
-.wrapper .btn::after {
+.btn::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -132,7 +139,7 @@ body{
   border-radius: 10px;
 }
 /* glow */
-.wrapper .btn::before {
+.btn::before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -160,15 +167,15 @@ body{
 }
 
 /* hover */
-.wrapper .btn:hover::before {
+.btn:hover::before {
   opacity: 1;
 }
 
-.wrapper .btn:active:after {
+.btn:active:after {
   background: transparent;
 }
 
-.wrapper .btn:active {
+.btn:active {
   color: #000;
   font-weight: bold;
 }
