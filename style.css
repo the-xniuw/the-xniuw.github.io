@@ -35,8 +35,20 @@ body{
     box-shadow: 0 15px 25px rgba(255, 255, 255, 0.26);
     width: 200px;
     height: 200px;
-    background-color: purple;
-}
+    background-image: repeating-linear-gradient(45deg, #646464 , #646464 10px , #fff 10px, #fff 20px);
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate
+  {
+    0%
+    {
+      background-position: 0;
+    }
+    100%
+    {
+      background-position: 400px;
+    }
+  }
   .wrapper h1{
     font-size: 40px;
     letter-spacing: 1px;
