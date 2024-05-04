@@ -53,6 +53,22 @@ body{
     font-size: 40px;
     letter-spacing: 1px;
     font-weight: 100;
+    line-height: 0.70em;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0000002f);
+    margin-bottom: 12.5px;
+    animation: text 5s linear infinite
+  }
+  @keyframes text
+  {
+    0%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
   }
   .inner {
     position: absolute;
@@ -60,7 +76,7 @@ body{
   .wrapper h5{
     font-size: 20px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: px;
     font-weight: 100;
   }
   .wrapper p{
