@@ -3,7 +3,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url("images/loa.png") no-repeat;
+  background: url("images/loa.png");
   background-size: cover;
 }
 .box{
